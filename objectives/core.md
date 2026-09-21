@@ -1,15 +1,10 @@
 ---
-id: objective:treedx-core
-title: TreeDX Core Objective
-description: TreeDX should provide a product-neutral repository-native API service and storage engine for managing portfolios of Git repositories, including storage, inspection, indexing, mirroring, placement, federation, graph search, snapshots, artifacts, and no-clone worker access.
-date: 2026-06-22
-summary: TreeDX exists to provide a product-neutral repository-native API service and storage engine for managing portfolios of Git repositories, including storage, inspection, indexing, mirroring, placement, federation, graph search, snapshots, artifacts, and no-clone worker access while preserving its package boundary.
-status: live
-timeHorizon: long-term
-motivation: Package-local workdays need a stable north star from the README so humans and agents can plan, execute, review, and report work without drifting across package ownership boundaries.
-primaryContributor: treedx-steward
-relatedQuestions: []
-relatedBooks: []
+schemaVersion: treeseed.objective/v1
+id: treedx-core
+projectId: treedx
+title: "TreeDX Core Objective"
+outcome: "TreeDX exists to provide a product-neutral repository-native API service and storage engine for managing portfolios of Git repositories, including storage, inspection, indexing, mirroring, placement, federation, graph search, snapshots, artifacts, and no-clone worker access while preserving its package boundary."
+status: active
 ---
 
 TreeDX exists to provide a product-neutral repository-native API service and storage engine for managing portfolios of Git repositories, including storage, inspection, indexing, mirroring, placement, federation, graph search, snapshots, artifacts, and no-clone worker access.
