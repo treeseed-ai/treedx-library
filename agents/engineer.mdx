@@ -57,9 +57,6 @@ activityProfiles:
         closeout.
   estimating:
     handler: estimate
-    dependsOn:
-      agents:
-        - architect
     permissions:
       content:
         read:
@@ -97,9 +94,6 @@ activityProfiles:
         closeout.
   acting:
     handler: actor
-    dependsOn:
-      agents:
-        - tester
     permissions:
       content:
         read:
